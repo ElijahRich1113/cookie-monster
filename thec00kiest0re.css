@@ -1,5 +1,5 @@
 body {
-    background-color: blueviolet;
+    background-color:rgb(217, 179, 140)
 }
 
 #firstImg {
@@ -32,4 +32,3 @@ body {
 .link {
     list-style-type: none;
 }
-
