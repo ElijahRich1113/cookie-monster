@@ -3,7 +3,7 @@ body {
 }
 
 #firstImg {
-    width: 1200px;
+    width: 1000px;
     height: 750px;
 }
 
@@ -25,14 +25,24 @@ body {
 #nav-bar {
     width: 100%;
     height: 100px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 40px;
+    position: fixed;
 }
 
-.link {
+.nav-bar {
     list-style-type: none;
+    font-size: 15pt;
+    font-family: 'Joti One', cursive;
 }
 
 h1 {
     text-align: center;
+    font-size: 45pt;
+    font-family: 'Joti One', cursive;
+}
+
+h2 {
+    font-family: 'Joti One', cursive;
+    font-size: 25pt;
 }
