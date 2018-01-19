@@ -2,6 +2,26 @@ body {
     background-color:rgb(217, 179, 140)
 }
 
+h1 {
+    text-align: center;
+    font-size: 45pt;
+    font-family: 'Macondo', cursive;
+}
+
+h2 {
+    font-family: 'Macondo', cursive;
+    font-size: 33pt;
+}
+
+h3 {
+    font-family: 'Macondo', cursive;
+    font-size: 18pt;
+}
+
+#motto {
+    text-align: center;
+}
+
 #firstImg {
     width: 1000px;
     height: 750px;
@@ -22,27 +42,38 @@ body {
     height: 500px;
 }
 
-#nav-bar {
+/*#nav-bar {             ***ADD NAV-BAR AS LI CLASS ALL***
     width: 100%;
     height: 100px;
     text-align: left;
-    padding-bottom: 40px;
     position: fixed;
-}
-
-.nav-bar {
     list-style-type: none;
     font-size: 15pt;
-    font-family: 'Joti One', cursive;
-}
+    font-family: 'Macondo', cursive;
+}*/
 
-h1 {
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    height: 425px;
+    background-color: #f1f1f1;
+    position: fixed;
+    font-size: 15pt;
+    font-family: 'Macondo', cursive;
     text-align: center;
-    font-size: 45pt;
-    font-family: 'Joti One', cursive;
 }
 
-h2 {
-    font-family: 'Joti One', cursive;
-    font-size: 25pt;
+li a {
+    display: block;
+    color: #000;
+    padding: 38px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color:black;
+    color: white;
 }
